@@ -21,5 +21,5 @@ customers.push(new Customer(2, "GA", 10000));
 customers.push(new Customer(3, "TG", 1500));
 
 for(let c of customers) {
-    c.log();    
+    c.log();     
 }
