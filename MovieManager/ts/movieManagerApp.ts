@@ -16,9 +16,8 @@ movies.forEach(m => {
     
     // other way to loop
 
-for(let movie of movies) {
+for(let m of movies) {
   console.log("Movie title = " +m.title);
-
 }
 });
 

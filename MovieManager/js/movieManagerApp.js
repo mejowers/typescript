@@ -13,7 +13,7 @@ movies.forEach(function (m) {
     console.log(m.id, m.title, m.year, m.rating, m.director);
     // other way to loop
     for (var _i = 0, movies_1 = movies; _i < movies_1.length; _i++) {
-        var movie = movies_1[_i];
-        console.log("Movie title = " + m.title);
+        var m_1 = movies_1[_i];
+        console.log("Movie title = " + m_1.title);
     }
 });
