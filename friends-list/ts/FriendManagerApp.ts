@@ -10,7 +10,6 @@ let friend6:Friend = new Friend( "Seth Race", 32, "seth@info.com", false);
 let friends: Friend[] = [friend1, friend2, friend3, friend4, friend5, friend6];
 
 console.log("List of friends....");
-
 console.log("Name", "Age", "Email", "BFF?");
 
 friends.forEach(f => {
