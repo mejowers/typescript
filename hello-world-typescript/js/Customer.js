@@ -3,8 +3,7 @@ var Customer = /** @class */ (function () {
     function Customer(id, name, sales) {
         this.id = id;
         this.name = name;
-        
-        this.sales = sales;
+         this.sales = sales;
     }
     Customer.prototype.log = function () {
         console.log("[" + this.id + "] [" + this.name + "] [" + this.sales + "]");
